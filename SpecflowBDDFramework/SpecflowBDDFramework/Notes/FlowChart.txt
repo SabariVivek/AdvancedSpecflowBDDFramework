@@ -1,0 +1,19 @@
+Hooks (Before Hooks) --> Calling Driver Functions (Initializing)...
+
+Feature
+
+Step Definitions
+
+Page Class
+
+Hooks (After Hooks)  --> Calling Driver Functions (Disposing)...
+
+--------------------------------------------------------------------
+
+Nuget Packages for Reading Config File...
+
+Microsoft.Extensions.Configuration
+Microsoft.Extensions.Configuration.Binder
+Microsoft.Extensions.Configuration.Json
+
+--------------------------------------------------------------------

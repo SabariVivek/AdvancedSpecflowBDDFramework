@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Utils\FakerClass.cs~RFabf0a5b.TMP\**" />
+    <EmbeddedResource Remove="Utils\FakerClass.cs~RFabf0a5b.TMP\**" />
+    <None Remove="Utils\FakerClass.cs~RFabf0a5b.TMP\**" />
+    <SpecFlowFeatureFiles Remove="Utils\FakerClass.cs~RFabf0a5b.TMP\**" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Utils\FakerClass.cs~RFabf0a5b.TMP\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="8.0.0" />
+    <PackageReference Include="ExtentReports" Version="4.1.0" />
+    <PackageReference Include="Faker.Net" Version="2.0.163" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.0.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.17.0" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="121.0.6167.8500" />
+    <PackageReference Include="SpecFlow.Plus.LivingDocPlugin" Version="3.9.57" />
+    <PackageReference Include="SpecFlow.NUnit" Version="3.9.40" />
+    <PackageReference Include="nunit" Version="3.13.2" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\CsvFiles\" />
+    <Folder Include="TestReports\" />
+    <Folder Include="Notes\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,8 @@
+Autofac --> Dependency Injection Framework that we are gonna use in this project...
+
+-------
+
+Box --> Container
+Books --> Framework Instances (Webdriver, Page classes)
+Sealing --> Building the container
+Taking the books which you put and sealed in the box --> Resolving
